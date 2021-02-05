@@ -1,0 +1,179 @@
+header {
+    position: relative;
+}
+
+body {
+    color: blue;
+    /* text-shadow: 1px 1px 1px white; */
+    background-image: url("https://mtrend.vn/wp-content/uploads/2015/09/hinh-nen-dien-thoai-phoi-mau-dep-2.jpg");
+    background-size: cover;
+}
+
+.khoi3 {
+    float: left;
+    width: 260px;
+    height: 250px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-image: url("https://giupban.com.vn/wp-content/uploads/2019/09/anh-nen-cho-power-point-mau-xanh-la-dep_111222528-1024x640.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.khoi3 .layer2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center;
+align-items: center; */
+    /* background-color: #f6f66f; */
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    transition: 0.4s;
+    border: 1px solid blue;
+    box-shadow: 0px 0px 10px 8px rgb(236, 218, 51);
+    background-image: url("https://giupban.com.vn/wp-content/uploads/2019/09/anh-nen-cho-power-point-mau-xanh-la-dep_111222528-1024x640.jpg");
+    background-size: cover;
+}
+
+.khoi3:hover .layer2 {
+    opacity: 1;
+
+    /* top: -20px;
+    left: 20px; */
+    transition: 0.8s;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+
+    background-color: #CCFF99;
+    color: red;
+}
+
+td,
+th {
+     text-shadow: 0px 0px 1px white;
+    
+    text-align: center;
+    height: 60px;
+    width: 80px;
+    color: rgb(50, 12, 94);
+    /* border: 1px solid black; */
+}
+
+a {
+    color: blue;
+}
+
+#header {
+    height: 300px;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-cartoon-green-beginning-of-spring-spring-image_23223.jpg");
+    background-size: cover;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.panel-default>.panel-heading {
+    background-color: #CCFF99;
+    border: 0px;
+}
+
+.tieude {
+    margin-left: 30px;
+}
+
+#ngaythang {
+    float: right;
+    margin-top: 200px;
+    color:rgb(15, 10, 92);
+}
+input{
+    border-radius: 3px;
+    border: 0px;
+    
+}
+h1{
+    color:rgb(172, 12, 12);
+}
+img{
+    height: 45px;
+    width: 50px;
+    /* background-image: url('https://i.pinimg.com/originals/0e/3a/02/0e3a0209ebf915f34279ac867bd2ea26.jpg'); */
+    border-radius: 50%;
+    background-size:cover;
+}
+.icon{
+    width:50px;
+    position:absolute;
+    margin-top:8px
+}
+.input{
+    width:400px;
+    margin-left:10px;
+    padding-left:30px;
+    height: 35px;
+    color: blue;
+}
+.textarea{
+    width:400px;
+    margin-left:10px;
+    padding-left:30px;
+    border-radius: 3px;
+}
+.pagination>.active>span:focus, .pagination>.active>span:hover {
+    
+    color: #CCFF99 ;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: blue;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: rgb(17, 17, 153);
+}
+.navbar-inverse .navbar-brand{
+    color: blue;
+}
+.navbar-inverse .navbar-brand:hover{
+    color: rgb(11, 11, 126);
+}
+a.list-group-item, button.list-group-item {
+color: blue;
+}
+a.list-group-item, button.list-group-item:hover {
+    color: rgb(11, 11, 114);
+    }
+        
+    .list-group-item {
+      
+        background-color: #CCFF99 ; 
+      
+    }
+   td:hover{
+       color: rgb(165, 33, 10);
+   }
+   th:hover{
+    color: rgb(165, 33, 10);
+   }
+   h1:hover{
+       color: red;
+   }
+   .bando{
+       width: 300px;
+       height: 300px;
+       border-radius: 0px;
+   }
+   .hinh1 {
+float: left;
+margin-left: 100px;
+height: 500px;
+color: black;
+   }

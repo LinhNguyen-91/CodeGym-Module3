@@ -1,0 +1,1 @@
+<h6 style="float: right;margin-right:15px;"> {{ $notes->onEachSide(5)->links() }} </h6>
